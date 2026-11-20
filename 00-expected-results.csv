@@ -1,0 +1,10 @@
+file,expected,reason
+01-diabetes.txt,match,Documented example
+02-diabetes-keyword.txt,match,Standalone name
+03-asthma.txt,candidate_match,Candidate English disease name
+04-tuberculosis.txt,candidate_match,Candidate English disease name
+05-disease-mention.txt,match,Name in training material
+06-negated-diagnosis.txt,match,Name in negated sentence
+07-health-context.txt,no_match,Medical context without a disease name
+08-vietnamese.txt,no_match,Vietnamese language control
+09-no-disease.txt,no_match,Unrelated text
